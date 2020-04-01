@@ -1,0 +1,30 @@
+{
+  "name": "pilot-circleci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrentonWalkup/pilot-circleci.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TrentonWalkup/pilot-circleci/issues"
+  },
+  "homepage": "https://github.com/TrentonWalkup/pilot-circleci#readme",
+  "devDependencies": {
+    "@wdio/cli": "^6.0.12",
+    "@wdio/local-runner": "^6.0.12",
+    "@wdio/mocha-framework": "^6.0.12",
+    "@wdio/spec-reporter": "^6.0.12",
+    "@wdio/sync": "^6.0.12",
+    "chai": "^4.2.0",
+    "chromedriver": "^80.0.1",
+    "wdio-chromedriver-service": "^5.0.2"
+  }
+}

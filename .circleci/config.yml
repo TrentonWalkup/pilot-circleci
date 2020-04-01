@@ -6,13 +6,7 @@ jobs:
       - image: selenium/hub
         name: hub
       - image: selenium/standalone-chrome:3.5.3
-        volumes:
-          - /dev/shm:/dev/shm
-        depends_on:
-          - hub
-        environment:
-          HUB_HOST: hub
-          
+
     working_directory: ~/repo
     steps:
       - checkout

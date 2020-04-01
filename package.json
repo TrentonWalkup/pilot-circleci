@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "wdio wdio.conf.js --spec ./tests/specs/wikipedia-loads-spec.js"
+    "test": "wdio wdio.conf.js --suite all_specs"
   },
   "repository": {
     "type": "git",

@@ -1,4 +1,6 @@
 exports.config = {
+  host: 'hub',
+  port: 4444,
     //
     // ====================
     // Runner Configuration
@@ -6,7 +8,6 @@ exports.config = {
     //
     // WebdriverIO allows it to run your tests in arbitrary locations (e.g. locally or
     // on a remote machine).
-    runner: 'local',
     //
     // ==================
     // Specify Test Files

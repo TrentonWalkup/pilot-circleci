@@ -27,9 +27,5 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
-      - run:
-          command: npm run start
-          background: true
-
       # run tests!
       - run: npm run test
